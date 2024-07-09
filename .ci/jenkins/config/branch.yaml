@@ -28,17 +28,8 @@ repositories:
   job_display_name: kogito-runtimes
 - name: incubator-kie-kogito-apps
   job_display_name: kogito-apps
-- name: incubator-kie-kogito-examples
-  job_display_name: kogito-examples
 - name: incubator-kie-kogito-images
   job_display_name: kogito-images
-- name: incubator-kie-kogito-serverless-operator
-  job_display_name: kogito-serverless-operator
-- name: incubator-kie-kogito-docs
-  job_display_name: kogito-docs
-- name: incubator-kie-docs
-  job_display_name: kie-docs
-  branch: main-kogito
 git:
   author:
     name: test-kie-pipelines
