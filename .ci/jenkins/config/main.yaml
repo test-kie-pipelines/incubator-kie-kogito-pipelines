@@ -22,10 +22,10 @@ seed:
     git:
       repository: incubator-kie-kogito-pipelines
       author:
-        name: apache
-        credentials_id: ASF_Cloudbees_Jenkins_ci-builds
+        name: test-kie-pipelines
+        credentials_id: test-kie-pipelines
         push:
-          credentials_id: 84811880-2025-45b6-a44c-2f33bef30ad2
+          credentials_id: test-kie-pipelines-push
       branch: main
     path: .ci/jenkins/config/branch.yaml
   jenkinsfile: dsl/seed/jenkinsfiles/Jenkinsfile.seed.branch
